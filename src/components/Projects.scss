@@ -1,0 +1,47 @@
+$fontColor: rgb(35, 35, 35);
+
+
+
+.works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.project {
+    height: 20vh;
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-title {
+    position: absolute;
+    font-size: 5rem;
+    z-index: 3;
+    color: $fontColor;
+    padding: 10px 20px;
+}
+
+.project-title:hover {
+    cursor: pointer;
+}
+
+.project:hover .p-img{
+    opacity: 0.7;
+    transition: ease 1.5s;
+}
+
+.p-img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 2;
+}
