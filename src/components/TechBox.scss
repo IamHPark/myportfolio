@@ -1,0 +1,17 @@
+.tech-stacks {
+    display: flex;
+    margin-left: 5%;
+}
+.tech-box {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #474747;
+    /* margin: 5px; */
+    width: fit-content;
+    flex-wrap: wrap;
+    margin: 3px;
+}
+

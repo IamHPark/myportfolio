@@ -8,8 +8,8 @@ $fontColor: rgb(35, 35, 35);
     justify-content: center;
 
     .project-img {
-        width: 40%;
-        margin-top: 5%;
+      margin-top: 5%;
+      height: 40%;
     }
 
 
@@ -17,7 +17,7 @@ $fontColor: rgb(35, 35, 35);
         font-size: 6rem;
         animation: changeColor 2s linear;
         color: $fontColor;
-        margin: 5% auto 0;
+        margin: 5% auto 2rem;
     }
 
     h3 {
@@ -25,26 +25,40 @@ $fontColor: rgb(35, 35, 35);
         margin: 0;
         font-size: 1.5rem;
         font-weight: 100;
+        width: 800px;
+        text-align: center;
     }
 }
 
 .project-detail {
-    width: 70%;
-    /* margin: 5% auto; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    transition: all 2s;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  transition: all 2s;
 
-    p {
-        color: $fontColor;
-        width: 65%;
-        font-size: 1.3rem;
-        line-height: 1.6;
-        text-align: center;
-    }
+  .project-detail-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    color: rgb(35, 35, 35);
+    /* width: 65%; */
+    font-size: 1.3rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 5%;
+  }
+
+  .project-detail-gallery {
+    display: grid;
+  }
 
 
 }

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Ubuntu:wght@500;700&display=swap');
+
 body {
   /* background-color: black; */
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .App {
@@ -7,10 +10,12 @@ body {
     /* display: flex; */
 }
 .main {
+  font-family: ubuntu;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: bolder;
 }
 
 .main-text {
