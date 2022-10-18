@@ -23,6 +23,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://iamhpark.github.io/myportfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",
