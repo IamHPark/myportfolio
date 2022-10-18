@@ -18,9 +18,13 @@ export default function Main () {
 
     return (
         <div className='main'>
+          <div className="main-menu-lists">
             <Link to="/about" className='main-text' onMouseOver={() => {changeText("ABOUT", 0)}} onMouseOut={backText}>{text[0]}</Link>
             <Link to="/projects" className='main-text' onMouseOver={() => {changeText("PROJECTS", 1)}} onMouseOut={backText}>{text[1]}</Link>
-            <a href="resume.pdf" target="_blank" className='main-text' onMouseOver={() => {changeText("CONTACT", 2)}} onMouseOut={backText}>{text[2]}</a>
+            <Link to="/contact" className='main-text' onMouseOver={() => {changeText("CONTACT", 2)}} onMouseOut={backText}>{text[2]}</Link>
+              <img src="/img/woman.jpg" alt="" className="main-img"/>
+            </div>
+
         </div>
     )
 }

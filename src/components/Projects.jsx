@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import GoMenu from "./GoMenu";
 import './Projects.scss';
 
 export default function Projects(props){
@@ -10,16 +11,10 @@ export default function Projects(props){
     const goDetail = (id) => {
         navigate(`/projects/${id}`)
     }
-    const goHome = () => {
-        navigate('/')
-    }
 
     return (
         <>
-            <div className="wrap" onClick={goHome}>
-                <h1 className="menu">WORKS</h1>
-                <h1 className="home">HOME</h1>
-            </div>
+            <GoMenu menu={"WORKS"}/>
             <div className="works">
                 {props.projects.map( (p, i) =>(
                     <div className="project" key={i} onClick={() => {goDetail(i)}}>

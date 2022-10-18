@@ -1,0 +1,24 @@
+$fontColor: rgb(35, 35, 35);
+
+.home {
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    cursor: pointer;
+  }
+  .menu {
+      position: absolute;
+      top: 30px;
+      left: 50px;
+      cursor: pointer;
+  }
+  .menu, .home {
+      transition: opacity 0.5s linear;
+  }
+  .wrap:hover .menu {
+      opacity: 0;
+  }
+  .wrap:hover .home {
+      opacity: 1;
+  }

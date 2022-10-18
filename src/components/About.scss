@@ -28,13 +28,13 @@ svg {
 .svg-1 {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   top: 30%;
 }
 .svg-2 {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   top: 43%;
 }
 
@@ -43,7 +43,7 @@ text {
   stroke: $fontColor;
   stroke-width: 3px;
   stroke-dasharray: 1000;
-  // stroke-dashoffset: 1000;
+  stroke-dashoffset: 1000;
   animation: dash 5s;
 }
 
@@ -113,25 +113,7 @@ text {
   transition: all 1s;
 }
 
-@media screen and (max-width: 768px) {
-  .about-me {
-    display: block;
-    width: 80%;
 
-    .about-content {
-      width: 100%;
-      margin: 0;
-    }
-
-    img {
-      width: 100%;
-      margin: auto;
-    }
-
-  }
-
-
-}
 
 .skill-info {
   display: flex;
@@ -184,4 +166,53 @@ text {
 }
 
 
+@media (max-width: 1200px) {
+  .about-phrase {
+    height: 70vh;
+  }
+  svg {
+    width: 550px;
+    height: 200px;
+  }
 
+  .svg-1 {
+    position: absolute;
+    top: 20%;
+
+  }
+  .svg-2 {
+    position: absolute;
+    top: 30%;
+  }
+
+  text {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about-me {
+    display: block;
+    width: 80%;
+    min-width: none;
+
+    .about-content {
+      width: 100%;
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      margin: auto;
+    }
+
+  }
+
+  .svg-1 {
+    transform: none;
+  }
+  .svg-2 {
+    transform: none;
+  }
+
+}

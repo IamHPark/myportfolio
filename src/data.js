@@ -12,55 +12,108 @@ const projectsData = [
     {
         id: 0,
         title: "lighthouse-town",
-        img: "/lighthousetown.jpg",
-        detail: "A gamification chat app enable users to chat, manipulate own character's movements and share a video in real-time",
-        content: "\"Make coders easy to connect\" my teammates and I wanted to build an app that connects developers where they can discuss and learn together. Lighthouse town is a gamification chat app that enables people to talk as their avatars and share a lecture in real-time to study together. Based on Node.js and React.js, we implemented features such as login, register, chatting and moving avatars. Socket.I.O was used for real-time chatting and syncronizing all avatars moves on the screen.",
-        tech: ["Javascript", "React.js", "Node.js", "Express", "Socket.I.O", "Canvas", "Sass", "PostgreSQL"],
+        img: "/img/project1/lighthousetown.jpg",
+        detail: "A gamification chat app enable users to chat, manipulate own avatar's movements in real-time",
+        content: "\"Make coders easy to connect\". My teammates and I wanted to build an app that connects developers where they can discuss and learn together. Lighthouse town is a gamification chat app that enables people to talk and move their avatars in real time. Based on Node.js and React.js, we implemented features such as login, register, chatting and moving avatars. Socket. I.O was used for real-time chatting and synchronizing all avatars' moves on the screen.",
+        tech: ["Javascript", "ReactJS", "NodeJS", "Express", "Socket.I.O", "Canvas", "Sass", "PostgreSQL"],
         live: "https://lighthouse-town.herokuapp.com/",
         github: "https://github.com/IamHPark/lighthouse-town",
-        test: "TEST ID: test1@test.com & PW: heesoo / ID: test@test.com & PW: moon",
+        test: "Live demo can be tested with ID: test1@test.com / PW: heesoo, ID: test@test.com / PW: moon or by registering one for yourself",
         features: [
-            "Login with ID and Password stored in database",
-            "Register with unique email and username",
-            "Talk to the public in real-time",
-            "Private chat with a specific user",
-            "Move own avatar with arrow keys",
-            "See other avatars moves in real-time",
-            "Add or delete a friend to or from friend lists",
-            "Check online users in a certain chat room"
+            "Created database with PostgreSQL and enable to login with ID and password stored in database",
+            "Able to Register with unique email and username and ID will be stored in database",
+            "With Socket.I.O, users can talk to the public in real-time",
+            "Private chat with a specific user is availble",
+            "By separating Socket.I.O chat room, chat room will be separated depending on what room a user is located",
+            "With arrow key event listener, HTML Canvas draws avatar's movements",
+            "Socket.I.O enable to synchronize other avatars' movements in real-time",
+            "Able to add or delete a friend to or from friend lists which are stored in database",
+            "Able to see online users in a certain chat room"
         ],
         imgs: [
             "/img/project1/LH-1.jpg",
             "/img/project1/LH-2.jpg",
             "/img/project1/LH-3.jpg",
             "/img/project1/LH-4.jpg",
-        ]
+        ],
+        gif: "/img/project1/lighthouse-1.gif"
     },
     {
         id: 1,
         title: "Pick the Dishes",
-        img: "/pickthedish.jpg",
-        detail: "Food ordering and order management app for a restaurant with SMS notification service",
-        content: "",
-        tech: ["Node.js", "Express", "EJS", "PostgreSQL", "Twilio API", "Axios", "ajax"],
+        img: "/img/project2/pickthedish.jpg",
+        detail: "A food ordering and order management app for a restaurant with SMS notification service",
+        content: `Pick the dishes is a web app that enables customers to order food online and restaurant owners and staff to manage online orders. The server was created with NodeJS and the client side was implemented with EJS. My teammates and I wrote user stories and designed database schema with PostgreSQL. With Twilio third party API, a SMS notification function was added to let customers know when the food is ready to pick up and let restaurant owners and staff know when the new online order has made.\n My teammates and I developed an app horizontally, and I was in charge of customer ordering page. Therefore I was able to handle all process from creating database schema, building the server to rendering client side.`,
+        tech: ["NodeJS", "Express", "EJS", "PostgreSQL", "Twilio API", "Axios", "ajax"],
         live: "https://pickthedishes.herokuapp.com",
         github: "https://github.com/IamHPark/pickthedishes",
-        test: "TEST ID: 1 for customer / 2 for restaurant owner"
+        test: "Live demo can be tested with ID: 1 for restaurant owners and staff and ID: 2 for customers",
+        features: [
+            "Wrote user stories, drew ERD and design database schema",
+            "Rendering food lists from database by using EJS",
+            "Able to add or delete the quantity of food to or from the cart and complete order",
+            "A customer will be notified via SMS the estimated time it will take and when the food is ready to pick up",
+            "Restaurant owner will be notified via SMS when the new online order has made",
+            "Restaurant owner can manage food status with pending, preparing, and ready-for-pickup by drag and drop the order",
+            "Restaurant owner can put the estimated preparation time which will be notified to customers",
+            "By pressing Complete Order button, the order will be removed from the process"
+        ],
+        imgs: [
+            "/img/project2/pick-1.jpg",
+            "/img/project2/pick-2.jpg",
+            "/img/project2/pick-3.jpg",
+            "/img/project2/pick-4.jpg",
+        ],
+        gif: "/img/project2/pick.gif"
     },
     {
         id: 2,
-        title: "Tinyapp",
-        detail: "This is a gamification chat-app that enable real-time chatting and sharing a video",
-        tech: ["all", "Javascript", "React"],
-        img: "/tinyapp.png"
+        title: "Shoes Market",
+        img: "/img/project3/shopping-mall.jpg",
+        detail: "A shoes e-commerce website with a responsive design",
+        content: "An e-commerce website for shoe shopping with a responsive design. Front-end was developed based on ReactJS and React-redux was used to store and manipulate states for the quantity in the cart. Leveraged local storage to show recently viewed items. ",
+        tech: ["ReactJS", "React-redux", "React-router"],
+        live: "https://iamhpark.github.io/shopping-mall",
+        github: "https://github.com/IamHPark/shopping-mall",
+        features: [
+            "Item detail pages will show up when clicking the item",
+            "Able to add items items into the cart and change the quantity of items",
+            "Recently viewed items will be appeared on cart page",
+        ],
+        imgs: [
+            "/img/project3/shoes-1.jpg",
+            "/img/project3/shoes-2.jpg",
+            "/img/project3/shoes-3.jpg",
+            "/img/project3/shoes-4.jpg",
+        ],
+        gif: "/img/project3/shoes.gif"
     },
     {
         id: 3,
-        title: "lighthouse-town",
-        detail: "This is a gamification chat-app that enable real-time chatting and sharing a video",
-        tech: ["all", "Javascript", "React"],
-        img: "/lighthousetown.jpg"
-    }
+        title: "Tiny App",
+        img: "/img/project4/tinyapp.jpg",
+        detail: "An URL shortener app for easy URLs sharing and managing the total number of visits",
+        content: "To make favourite websites easy to share and manage, a Tinyapp shortens URLs and tracks the number of visits with tiny URLs. Node.js is used for the back-end and CRUD methods are designed with RESTful API. Implemented Login and Register process by using bcrypt. ",
+        tech: ["Node.js", "Express", "EJS", "bcrypt", "method-override"],
+        // live: "https://iamhpark.github.io/shopping-mall",
+        github: "https://github.com/IamHPark/tinyapp",
+        features: [
+            "Users can register with unique email and login with correct email and password",
+            "Users cannot create or edit tiny URLs without login ",
+            "In Create New URL page, a tiny URL can be created by submitting a long URL",
+            "All tiny URLs are listed in My URLs page",
+            "The number of visits with tiny URLs will be tracked",
+            "Tiny URls can be edited and deleted in My URLs page",
+            "Users can edit tiny URLs that only belong to themselves"
+        ],
+        imgs: [
+            "/img/project4/tiny-1.jpg",
+            "/img/project4/tiny-2.jpg",
+            "/img/project4/tiny-3.jpg",
+            "/img/project4/tiny-4.jpg",
+        ],
+        gif: "/img/project4/tinyapp.gif"
+    },
 ]
 
 

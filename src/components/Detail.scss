@@ -1,4 +1,6 @@
-$fontColor: rgb(35, 35, 35);
+$fontColor: rgb(65 65 65);
+$pointColor: #FE464B;
+
 
 .title {
     height: 100vh;
@@ -32,34 +34,69 @@ $fontColor: rgb(35, 35, 35);
 
 .project-detail {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  padding-top: 10vh;
   transition: all 2s;
 
-  .project-detail-contents {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  h2 {
+    color: $pointColor;
   }
-
   p {
-    color: rgb(35, 35, 35);
-    /* width: 65%; */
+    color: $fontColor;
     font-size: 1.3rem;
     line-height: 1.6;
     text-align: justify;
-    margin-left: 5%;
+    font-weight: 100;
+  }
+
+  .link-container {
+    display: flex;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    // border: 4px solid #FE464B;
+    // width: 200px;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 20px;
+    margin-right: 20px;
+
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    p {
+      color: $pointColor;
+    }
+  }
+
+  .tech-stacks-container {
+    margin: 5vh 0 10vh;
   }
 
   .project-detail-gallery {
-    display: grid;
+    margin-bottom: 10%;
+
   }
 
+  .gif {
+    width: 100%;
+  }
+
+  ul {
+    margin-bottom: 10vh;
+  }
+
+  li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: $fontColor;
+  }
 
 }
 
@@ -75,8 +112,8 @@ $fontColor: rgb(35, 35, 35);
 .back {
     color: $fontColor;
     position: absolute;
-    top: 10px;
-    left: 20px;
+    top: 30px;
+    left: 50px;
     cursor: pointer;
 }
 

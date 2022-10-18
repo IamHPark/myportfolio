@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Ubuntu:wght@500;700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 body {
   /* background-color: black; */
@@ -31,51 +32,35 @@ body {
   transition: 1s;
 }
 
-.circle {
-    position: fixed;
-    transform: translate(-50%, -50%);
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-    /* color: green; */
-    background-color: purple;
-    border-radius: 50%;
-  }
+.main-menu-lists {
+  display: flex;
+  flex-direction: column;
+}
 
-  .circle.sm {
-    width: 30px;
-    height: 30px;
-  }
-
-  .circle.md {
-    width: 60px;
-    height: 60px;
-  }
-
-  .circle.lg {
-    width: 90px;
-    height: 90px;
-  }
-
-  .home {
-    opacity: 0;
+.main-img {
+  width: 40%;
     position: absolute;
-    top: 10px;
-    left: 20px;
-    cursor: pointer;
+    z-index: -1;
+    right: 100px;
 }
-.menu {
+
+@media (max-width: 1024px) {
+  .main-text {
+    font-size: 10rem;
+  }
+
+  .main-img {
+    width: 30%;
     position: absolute;
-    top: 10px;
-    left: 20px;
-    cursor: pointer;
+    z-index: -1;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
-.menu, .home {
-    transition: opacity 0.5s linear;
-}
-.wrap:hover .menu {
-    opacity: 0;
-}
-.wrap:hover .home {
-    opacity: 1;
+
+@media (max-width: 600px) {
+  .main-text {
+    font-size: 4rem;
+  }
 }

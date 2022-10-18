@@ -42,19 +42,28 @@ export default function Detail(props) {
                     </div>
             </div>
             <div className="project-detail" ref={scrollToDetail}>
-                <div className="project-detail-contents">
-                    <img src="/img/project1/lighthouse-1.gif" alt="...loading" />
-                    <div>
-                        <p>{project.content}</p>
-                        <p className="sub-heading">Tech Stack</p>
-                        <TechBox tech={project.tech}/>
-                        <p className="sub-heading">Features</p>
-                        <ul>{featureLists}</ul>
+
+                    <p>{project.content}</p>
+                    <p>{project.test}</p>
+                    <div className="link-container">
+                        <a href={project.live} target="_blank" className="link">
+                            <img src="/img/icons/play.jpeg" alt="github" />
+                            <p>LIVE DEMO</p>
+                        </a>
+
+                        <a href={project.github} target={"_blank"} className="link">
+                            <img src="/img/icons/github.png" alt="github" />
+                            <p>GITHUB</p>
+                        </a>
                     </div>
-                </div>
-                <div className="project-detail-gallery">
+                    <img src={project.gif} alt="...loading" className="gif"/>
+                    <div className="tech-stacks-container">
+                        <h2 className="sub-heading">TECH STACK</h2>
+                        <TechBox tech={project.tech}/>
+                    </div>
+                    <h2 className="sub-heading">FEATURES</h2>
+                    <ul>{featureLists}</ul>
                     <Gallery imgs={project.imgs}/>
-                </div>
             </div>
         </>
     )

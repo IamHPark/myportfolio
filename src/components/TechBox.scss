@@ -1,14 +1,17 @@
+$fontColor: rgb(65 65 65);
+$pointColor: #FE464B;
+
 .tech-stacks {
     display: flex;
     margin-left: 5%;
 }
 .tech-box {
-    border: 1px solid grey;
+    border: 2px solid $pointColor;
     border-radius: 8px;
     padding: 0.5rem 1rem;
     text-align: center;
-    font-size: 1rem;
-    color: #474747;
+    font-size: 1.2rem;
+    color: $fontColor;
     /* margin: 5px; */
     width: fit-content;
     flex-wrap: wrap;

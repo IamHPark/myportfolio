@@ -10,7 +10,7 @@ export default function Gallery(props) {
     console.log(pick)
 
     return (
-        <div>
+        <div className="project-detail-gallery">
             <div>
                 <img src={props.imgs[pick]} alt="" className="detail-image-big"/>
             </div>

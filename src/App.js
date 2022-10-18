@@ -20,7 +20,7 @@ function App() {
         <Route path="/projects" element={<Projects projects={projects}/>} />
         <Route path='/projects/:id' element={<Detail projects={projects}/>}/>
         <Route path="/contact" element={<Contact />}/>
-        <Route paht="/projects/:id" />
+        {/* <Route paht="/projects/:id" /> */}
       </Routes>
     </div>
   );
