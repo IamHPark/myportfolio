@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IamHPark/myportfolio/static/css/main.81d34161.css",
+    "main.js": "/IamHPark/myportfolio/static/js/main.071d0b73.js",
+    "index.html": "/IamHPark/myportfolio/index.html",
+    "main.81d34161.css.map": "/IamHPark/myportfolio/static/css/main.81d34161.css.map",
+    "main.071d0b73.js.map": "/IamHPark/myportfolio/static/js/main.071d0b73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81d34161.css",
+    "static/js/main.071d0b73.js"
+  ]
+}
