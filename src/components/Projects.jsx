@@ -8,6 +8,7 @@ export default function Projects(props){
 
     const navigate = useNavigate();
 
+
     const goDetail = (id) => {
         navigate(`/projects/${id}`)
     }
@@ -19,7 +20,7 @@ export default function Projects(props){
                 {props.projects.map( (p, i) =>(
                     <div className="project" key={i} onClick={() => {goDetail(i)}}>
                         <h1 className="project-title">{p.title}</h1>
-                        <img src={p.img} className="p-img"/>
+                        <img src={process.env.PUBLIC_URL + p.img} className="p-img"/>
                     </div>
                 ))}
 

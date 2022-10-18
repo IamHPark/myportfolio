@@ -13,9 +13,11 @@ export default function Contact() {
                 CONTACT WITH ME
             </h1>
             <p>Hi, I am actively looking for a web developement or software development job. If you are interested in my projects or background, feel free to contact me via email or Linkedin. All messages are welcome!</p>
-            <a href='https://www.linkedin.com/in/heesoo-park/' target="_blank"><img src="/img/icons/linkedin-logo.webp" alt="" className='logo'/></a>
-            <a href='https://github.com/IamHPark' target="_blank"><img src="/img/icons/github-logo.png" alt="" className='logo'/></a>
-            <Form action="mailto:heesoo.p1023@gmail.com" method="POST" encType='text/plain'>
+            <a className='contact-link' href={process.env.PUBLIC_URL + '/img/resume.pdf'} target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/resume.png"} alt="" className='logo'/><span>Resume</span></a>
+            <a className='contact-link' href='https://www.linkedin.com/in/heesoo-park/' target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/linkedin.png"} alt="" className='logo'/><span>LinkedIn</span></a>
+            <a className='contact-link' href='https://github.com/IamHPark' target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/github.png"} alt="" className='logo'/><span>Github</span></a>
+            <a className='contact-link' href="mailto:heesoo.p1023@gmail.com"><img src={process.env.PUBLIC_URL + "/img/icons/email.png"} alt="" className='logo'/><span>Email</span></a>
+            {/* <Form action="mailto:heesoo.p1023@gmail.com" method="POST" encType='text/plain'>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
                 <Form.Label>Name</Form.Label>
                 <Form.Control type="text" />
@@ -31,7 +33,7 @@ export default function Contact() {
             <Button variant="primary" type="submit">
                 Submit
             </Button>
-            </Form>
+            </Form> */}
         </div>
     </>
   );

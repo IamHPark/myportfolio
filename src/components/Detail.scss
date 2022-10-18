@@ -52,6 +52,7 @@ $pointColor: #FE464B;
 
   .link-container {
     display: flex;
+    margin-bottom: 5vh;
   }
   .link {
     display: flex;
@@ -71,6 +72,7 @@ $pointColor: #FE464B;
 
     p {
       color: $pointColor;
+      margin-bottom: 0;
     }
   }
 

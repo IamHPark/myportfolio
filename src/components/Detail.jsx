@@ -19,15 +19,15 @@ export default function Detail(props) {
 
     const scrollToDetail = useRef();
 
-    const featureLists = project.features.map( feature =>
-            <li>{feature}</li>
+    const featureLists = project.features.map( (feature, i) =>
+            <li key={i}>{feature}</li>
         )
 
     return (
         <>
             <h1 className="back" onClick={goLists}>BACK</h1>
             <div className="title">
-                    <img src={project.img} className="project-img"/>
+                    <img src={process.env.PUBLIC_URL + project.img} className="project-img"/>
                     <h1>{project.title}</h1>
                     <h3>{project.detail}</h3>
                     <div className="mouse_scroll" onClick={() => scrollToDetail.current.scrollIntoView({ behavior: 'smooth'})}>
@@ -47,16 +47,16 @@ export default function Detail(props) {
                     <p>{project.test}</p>
                     <div className="link-container">
                         <a href={project.live} target="_blank" className="link">
-                            <img src="/img/icons/play.jpeg" alt="github" />
+                            <img src={process.env.PUBLIC_URL + "/img/icons/play.jpeg"} alt="github" />
                             <p>LIVE DEMO</p>
                         </a>
 
-                        <a href={project.github} target={"_blank"} className="link">
-                            <img src="/img/icons/github.png" alt="github" />
+                        <a href={process.env.PUBLIC_URL +project.github} target={"_blank"} className="link">
+                            <img src={process.env.PUBLIC_URL + "/img/icons/github.png"} alt="github" />
                             <p>GITHUB</p>
                         </a>
                     </div>
-                    <img src={project.gif} alt="...loading" className="gif"/>
+                    <img src={process.env.PUBLIC_URL + project.gif} alt="...loading" className="gif"/>
                     <div className="tech-stacks-container">
                         <h2 className="sub-heading">TECH STACK</h2>
                         <TechBox tech={project.tech}/>

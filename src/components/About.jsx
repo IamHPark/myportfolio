@@ -67,7 +67,7 @@ export default function About(){
                     <svg className="svg-1"><text x="0" y="150">I Love to code</text></svg>
                     <svg className="svg-2"><text x="0" y="150">And design</text></svg>
                 </div>
-                <img src="./img/heesoo.jpg" alt="" className={`about-img ${scroll.img ? 'active' : ''}`}/>
+                <img src={process.env.PUBLIC_URL + "/img/heesoo.jpg"} alt="" className={`about-img ${scroll.img ? 'active' : ''}`}/>
                 <div className={`about-me ${scroll.intro ? 'active' : ''}`}>
 
                     <div className="about-content">
@@ -77,7 +77,7 @@ export default function About(){
                         <p>an enthusiastic full-stack web developer based on business and education background. With the years of experience as a banker and a marketing specialist, "Take a walk in your customer's shoe" is my priority to pursue in working. As a developer, what I am after is becoming a user-centered developer who thinks in users' perspective and provides user-friendly design and development.
                             With a solid understanding of Javascript, HTML, CSS and SQL, I also have project experiences with React.js, Node.js and Socket.I.O. Please check m y projects to learn more about What I experienced.
                         </p>
-                        <a href="/img/resume.pdf" target="_blank" className="resume_link">Check My Resume</a>
+                        <a href={process.env.PUBLIC_URL + "/img/resume.pdf"} target="_blank" className="resume_link">Check My Resume</a>
                     </div>
 
 

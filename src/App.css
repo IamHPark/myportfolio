@@ -6,10 +6,10 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.App {
-    /* height: 100vh; */
-    /* display: flex; */
-}
+/* .App {
+    height: 100vh;
+    display: flex;
+} */
 .main {
   font-family: ubuntu;
   height: 100vh;
@@ -58,9 +58,9 @@ body {
     transform: translateX(-50%);
   }
 }
-
+/*
 @media (max-width: 600px) {
   .main-text {
-    font-size: 4rem;
+
   }
-}
+} */
