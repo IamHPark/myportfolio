@@ -10,7 +10,6 @@ import { skillData, projectsData } from './data.js'
 
 function App() {
   const [projects, setProjects] = useState(projectsData)
-  console.log(projects)
 
   return (
     <div className="App">

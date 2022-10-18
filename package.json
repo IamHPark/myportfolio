@@ -21,9 +21,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://iamhpark.github.io/myportfolio/",
+  "homepage": "https://iamhpark.github.io/myportfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
