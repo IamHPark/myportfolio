@@ -12,6 +12,8 @@ $pointColor: #FE464B;
 .about-phrase {
   font-size: 5rem;
   height: 70vh;
+  position: relative;
+  margin-bottom: 20%;
 
   h1 {
     margin: 0;
@@ -35,7 +37,7 @@ svg {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 43%;
+  top: 55%;
 }
 
 text {
@@ -79,7 +81,7 @@ text {
   transition: all 1s;
 
   .about-content {
-    margin: 20% 0;
+    margin: 10% auto;
 
   }
 
@@ -182,24 +184,36 @@ text {
   }
   .svg-2 {
     position: absolute;
-    top: 30%;
+    top: 35%;
   }
 
   text {
     font-size: 5rem;
   }
+
+  .about {
+    padding: 0 10%;
+    width: 80%;
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+
 }
 
 @media screen and (max-width: 650px) {
   .about-me {
-    display: block;
-    width: 80%;
     min-width: none;
+    opacity: 1;
 
-    .about-content {
-      width: 100%;
-      margin: 0;
-    }
+    // .about-content {
+    //   width: 100%;
+    //   margin: 0;
+    // }
 
     img {
       width: 100%;
@@ -207,12 +221,12 @@ text {
     }
 
   }
-
-  .svg-1 {
-    transform: none;
+  .about-img {
+    opacity: 1;
   }
-  .svg-2 {
-    transform: none;
+  .skill-info {
+    opacity: 1;
   }
 
 }
+

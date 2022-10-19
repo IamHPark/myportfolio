@@ -4,6 +4,8 @@ $pointColor: #FE464B;
 .tech-stacks {
     display: flex;
     margin-left: 5%;
+    flex-wrap: wrap;
+
 }
 .tech-box {
     border: 2px solid $pointColor;
@@ -18,3 +20,24 @@ $pointColor: #FE464B;
     margin: 3px;
 }
 
+@media screen and (max-width: 650px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    .tech-box {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    .detail-image-big {
+        display: none;
+    }
+
+    .detail-images {
+        width: 100%;
+    }
+
+}

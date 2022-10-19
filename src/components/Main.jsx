@@ -22,8 +22,8 @@ export default function Main () {
             <Link to="/about" className='main-text' onMouseOver={() => {changeText("ABOUT", 0)}} onMouseOut={backText}>{text[0]}</Link>
             <Link to="/projects" className='main-text' onMouseOver={() => {changeText("PROJECTS", 1)}} onMouseOut={backText}>{text[1]}</Link>
             <Link to="/contact" className='main-text' onMouseOver={() => {changeText("CONTACT", 2)}} onMouseOut={backText}>{text[2]}</Link>
-              <img src={process.env.PUBLIC_URL +"/img/woman.jpg"} alt="" className="main-img"/>
-            </div>
+          </div>
+          <img src={process.env.PUBLIC_URL +"/img/woman.jpg"} alt="" className="main-img"/>
 
         </div>
     )

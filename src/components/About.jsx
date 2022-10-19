@@ -34,13 +34,13 @@ export default function About(){
                     ...scroll,
                     img: true
                 })
-                if (window.scrollY >= 1200) {
+                if (window.scrollY >= 1000) {
                     setScroll({
                         ...scroll,
                         intro: true
                     });
                 }
-                if (window.scrollY >= 2000) {
+                if (window.scrollY >= 1500) {
                     setScroll({
                         ...scroll,
                         tech: true

@@ -10,25 +10,27 @@ $pointColor: #FE464B;
     justify-content: center;
 
     .project-img {
-      margin-top: 5%;
-      height: 40%;
+      margin-top: 10%;
+      width: 80%;
+      max-width: 600px;
     }
 
 
     h1 {
-        font-size: 6rem;
+        font-size: 3.5rem;
         animation: changeColor 2s linear;
         color: $fontColor;
         margin: 5% auto 2rem;
     }
 
     h3 {
-        color: $fontColor;
-        margin: 0;
-        font-size: 1.5rem;
-        font-weight: 100;
-        width: 800px;
-        text-align: center;
+      color: rgb(65, 65, 65);
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 100;
+      width: 60%;
+      max-width: 600px;
+      text-align: center;
     }
 }
 
@@ -36,7 +38,7 @@ $pointColor: #FE464B;
   width: 80%;
   max-width: 1000px;
   margin: auto;
-  padding-top: 10vh;
+  padding-top: 15vh;
   transition: all 2s;
 
   h2 {
@@ -45,9 +47,10 @@ $pointColor: #FE464B;
   p {
     color: $fontColor;
     font-size: 1.3rem;
-    line-height: 1.6;
+    line-height: 1.5;
     text-align: justify;
     font-weight: 100;
+    margin-bottom: 3rem;
   }
 
   .link-container {
@@ -79,6 +82,7 @@ $pointColor: #FE464B;
   .tech-stacks-container {
     margin: 5vh 0 10vh;
   }
+
 
   .project-detail-gallery {
     margin-bottom: 10%;
@@ -134,8 +138,8 @@ $pointColor: #FE464B;
 	margin: 0 auto;
 	width: 24px;
 	height: 100px;
-	margin-top: 125px;
-    cursor: pointer;
+  margin: 5% 0;
+  cursor: pointer;
 }
 
 
@@ -300,3 +304,20 @@ $pointColor: #FE464B;
 }
 
 
+@media screen and (max-width: 650px) {
+  .title {
+    margin-top: 10%;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+  .project-detail {
+    p {
+      font-size : 1rem;
+    }
+  }
+}

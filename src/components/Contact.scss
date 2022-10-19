@@ -49,3 +49,13 @@ $pointColor: #FE464B;
 .logo {
     height: 50px;
 }
+
+@media screen and (max-width: 650px) {
+    .contact-form {
+        width: 80%;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}

@@ -7,11 +7,11 @@ $fontColor: rgb(35, 35, 35);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
 }
 .project {
     height: 20vh;
-    width: 40%;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ $fontColor: rgb(35, 35, 35);
 
 .project-title {
     position: absolute;
-    font-size: 5rem;
+    font-size: 3rem;
     z-index: 3;
     color: $fontColor;
     padding: 10px 20px;
@@ -37,11 +37,17 @@ $fontColor: rgb(35, 35, 35);
 }
 
 .p-img {
-    width: 100%;
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
     z-index: 2;
+}
+
+@media screen and (max-width: 650px) {
+    .project-title {
+        font-size: 2rem;
+    }
 }
