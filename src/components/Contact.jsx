@@ -12,7 +12,7 @@ export default function Contact() {
             <h1 className="contact-heading">
                 CONTACT WITH ME
             </h1>
-            <p>Hi, I am actively looking for a web developement or software development job. If you are interested in my projects or background, feel free to contact me via email or Linkedin. All messages are welcome!</p>
+            <p>I am actively looking for a developer job titled web, front-end, back-end, full-stack and software developer. If you are interested in my background and what I experienced, feel free to reach out through contact below. I would always welcome any message and connection. </p>
             <a className='contact-link' href={process.env.PUBLIC_URL + '/img/resume.pdf'} target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/resume.png"} alt="" className='logo'/><span>Resume</span></a>
             <a className='contact-link' href='https://www.linkedin.com/in/heesoo-park/' target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/linkedin.png"} alt="" className='logo'/><span>LinkedIn</span></a>
             <a className='contact-link' href='https://github.com/IamHPark' target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/github.png"} alt="" className='logo'/><span>Github</span></a>

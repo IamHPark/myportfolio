@@ -20,14 +20,14 @@ const projectsData = [
         github: "https://github.com/IamHPark/lighthouse-town",
         test: "Live demo can be tested with ID: test1@test.com / PW: heesoo, ID: test@test.com / PW: moon or by registering one for yourself",
         features: [
-            "Created database with PostgreSQL and enable to login with ID and password stored in database",
-            "Able to Register with unique email and username and ID will be stored in database",
+            "Created database with PostgreSQL and able to login with ID and password stored in the database",
+            "Able to Register with unique email and username and ID will be stored in the database",
             "With Socket.I.O, users can talk to the public in real-time",
-            "Private chat with a specific user is availble",
-            "By separating Socket.I.O chat room, chat room will be separated depending on what room a user is located",
+            "Private chat with a specific user is available",
+            "By separating Socket.I.O chat room, the chat room will be separated depending on what room a user is located",
             "With arrow key event listener, HTML Canvas draws avatar's movements",
             "Socket.I.O enable to synchronize other avatars' movements in real-time",
-            "Able to add or delete a friend to or from friend lists which are stored in database",
+            "Able to add or delete a friend to or from friend lists which are stored in the database",
             "Able to see online users in a certain chat room"
         ],
         imgs: [
@@ -50,13 +50,13 @@ const projectsData = [
         test: "Live demo can be tested with ID: 1 for restaurant owners and staff and ID: 2 for customers",
         features: [
             "Wrote user stories, drew ERD and design database schema",
-            "Rendering food lists from database by using EJS",
+            "Rendering food lists from the database by using EJS",
             "Able to add or delete the quantity of food to or from the cart and complete order",
-            "A customer will be notified via SMS the estimated time it will take and when the food is ready to pick up",
-            "Restaurant owner will be notified via SMS when the new online order has made",
+            "A customer will be notified via SMS of the estimated time it will take and when the food is ready to pick up",
+            "Restaurant owner will be notified via SMS when the new online order has been made",
             "Restaurant owner can manage food status with pending, preparing, and ready-for-pickup by drag and drop the order",
             "Restaurant owner can put the estimated preparation time which will be notified to customers",
-            "By pressing Complete Order button, the order will be removed from the process"
+            "By pressing the Complete Order button, the order will be removed from the process"
         ],
         imgs: [
             "/img/project2/pick-1.jpg",
@@ -71,14 +71,14 @@ const projectsData = [
         title: "Shoes Market",
         img: "/img/project3/shopping-mall.jpg",
         detail: "A shoes e-commerce website with a responsive design",
-        content: "An e-commerce website for shoe shopping with a responsive design. Front-end was developed based on ReactJS and React-redux was used to store and manipulate states for the quantity in the cart. Leveraged local storage to show recently viewed items. ",
+        content: "A front-end e-commerce website for shoe shopping with a responsive design. The site is built with React.js and has different routes for pages by using the React-router-dom library. I utilized React-redux to store and manipulate states for the item quantity in the cart. I understood Web Storage API and leveraged localStorage to show recently viewed items. ",
         tech: ["ReactJS", "React-redux", "React-router"],
         live: "https://iamhpark.github.io/shopping-mall",
         github: "https://github.com/IamHPark/shopping-mall",
         features: [
-            "Item detail pages will show up when clicking the item",
-            "Able to add items items into the cart and change the quantity of items",
-            "Recently viewed items will be appeared on cart page",
+            "Item detail pages will show up when clicking each item",
+            "Able to add items into the cart and change the number of items",
+            "Recently viewed items will appear on the cart page",
         ],
         imgs: [
             "/img/project3/shoes-1.jpg",
@@ -98,12 +98,12 @@ const projectsData = [
         // live: "https://iamhpark.github.io/shopping-mall",
         github: "https://github.com/IamHPark/tinyapp",
         features: [
-            "Users can register with unique email and login with correct email and password",
+            "Users can register with a unique email and log in with the correct email and password",
             "Users cannot create or edit tiny URLs without login ",
             "In Create New URL page, a tiny URL can be created by submitting a long URL",
             "All tiny URLs are listed in My URLs page",
             "The number of visits with tiny URLs will be tracked",
-            "Tiny URls can be edited and deleted in My URLs page",
+            "Tiny URLs can be edited and deleted on My URLs page",
             "Users can edit tiny URLs that only belong to themselves"
         ],
         imgs: [

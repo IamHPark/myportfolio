@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://iamhpark.github.io",
+  "homepage": "https://iamhpark.github.io/myportfolio",
   "eslintConfig": {
     "extends": [
       "react-app",

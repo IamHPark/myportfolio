@@ -74,8 +74,12 @@ export default function About(){
                         <h1>Hi there,<br />
                         My name is Heesoo.</h1>
                         <br />
-                        <p>an enthusiastic full-stack web developer based on business and education background. With the years of experience as a banker and a marketing specialist, "Take a walk in your customer's shoe" is my priority to pursue in working. As a developer, what I am after is becoming a user-centered developer who thinks in users' perspective and provides user-friendly design and development.
-                            With a solid understanding of Javascript, HTML, CSS and SQL, I also have project experiences with React.js, Node.js and Socket.I.O. Please check m y projects to learn more about What I experienced.
+                        <p>
+                        I am Heesoo Park, a versatile web developer who is well-versed in front-end, back-end as well as interactive web design. While everyone was isolated in their own space for the past few years, a lot of web services that helped people to connect intrigued me. That is when I decided to dive into the IT industry. I studied by myself through Freecodecamp and Codingapple and practiced hands-on programming skills at Lighthouse Labs Bootcamp web development diploma program.
+
+With a strong knowledge of Javascript along with HTML, CSS and SQL, I have experience building projects in a team using React.js, Node.js, PostgreSQL and Socket. I.O. Also, I am able to utilize Figma for web design and have basic knowledge of Abode Illustrator. In addition to the web and design foundation, I worked as a financial advisor and marketing specialist at a bank for 5 years. With strong organizational skills and time management skills, I implemented marketing strategies and organized events with tight deadlines which placed my company 1st place among 4,000 other federations.
+
+If you are interested in my background and what I experienced, please check my resume below. I always would love to connect with you.
                         </p>
                         <a href={process.env.PUBLIC_URL + "/img/resume.pdf"} target="_blank" className="resume_link">Check My Resume</a>
                     </div>
