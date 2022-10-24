@@ -13,7 +13,7 @@ export default function Contact() {
                 CONTACT WITH ME
             </h1>
             <p>I am actively looking for a developer job titled web, front-end, back-end, full-stack and software developer. If you are interested in my background and what I experienced, feel free to reach out through contact below. I would always welcome any message and connection. </p>
-            <a className='contact-link' href={process.env.PUBLIC_URL + '/img/resume.pdf'} target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/resume.png"} alt="" className='logo'/><span>Resume</span></a>
+            <a className='contact-link' href={process.env.PUBLIC_URL + "/img/HeesooPark_Resume_updated on 20.10.22.pdf"} target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/resume.png"} alt="" className='logo'/><span>Resume</span></a>
             <a className='contact-link' href='https://www.linkedin.com/in/heesoo-park/' target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/linkedin.png"} alt="" className='logo'/><span>LinkedIn</span></a>
             <a className='contact-link' href='https://github.com/IamHPark' target="_blank"><img src={process.env.PUBLIC_URL + "/img/icons/github.png"} alt="" className='logo'/><span>Github</span></a>
             <a className='contact-link' href="mailto:heesoo.p1023@gmail.com"><img src={process.env.PUBLIC_URL + "/img/icons/email.png"} alt="" className='logo'/><span>Email</span></a>

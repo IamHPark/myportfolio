@@ -75,13 +75,13 @@ export default function About(){
                         My name is Heesoo.</h1>
                         <br />
                         <p>
-                        I am Heesoo Park, a versatile web developer who is well-versed in front-end, back-end as well as interactive web design. While everyone was isolated in their own space for the past few years, a lot of web services that helped people to connect intrigued me. That is when I decided to dive into the IT industry. I studied by myself through Freecodecamp and Codingapple and practiced hands-on programming skills at Lighthouse Labs Bootcamp web development diploma program.
+                        I am Heesoo Park, a versatile web developer who is well-versed in front-end, back-end as well as interactive web design. While everyone was isolated in their own space for the past few years, a lot of web services that helped people to connect intrigued me. That is when I decided to dive into the IT industry. I studied by myself through Freecodecamp and Codingapple and practiced hands-on programming skills at Lighthouse Labs Bootcamp web development diploma program. <br /><br />
 
-With a strong knowledge of Javascript along with HTML, CSS and SQL, I have experience building projects in a team using React.js, Node.js, PostgreSQL and Socket. I.O. Also, I am able to utilize Figma for web design and have basic knowledge of Abode Illustrator. In addition to the web and design foundation, I worked as a financial advisor and marketing specialist at a bank for 5 years. With strong organizational skills and time management skills, I implemented marketing strategies and organized events with tight deadlines which placed my company 1st place among 4,000 other federations.
+With a strong knowledge of Javascript along with HTML, CSS and SQL, I have experience building projects in a team using React.js, Node.js, PostgreSQL and Socket. I.O. Also, I am able to utilize Figma for web design and have basic knowledge of Abode Illustrator. In addition to the web and design foundation, I worked as a financial advisor and marketing specialist at a bank for 5 years. With strong organizational skills and time management skills, I implemented marketing strategies and organized events with tight deadlines which placed my company 1st place among 4,000 other federations.<br /><br />
 
 If you are interested in my background and what I experienced, please check my resume below. I always would love to connect with you.
                         </p>
-                        <a href={process.env.PUBLIC_URL + "/img/resume.pdf"} target="_blank" className="resume_link">Check My Resume</a>
+                        <a href={process.env.PUBLIC_URL + "/img/HeesooPark_Resume_updated on 20.10.22.pdf"} target="_blank" className="resume_link">Check My Resume</a>
                     </div>
 
 
