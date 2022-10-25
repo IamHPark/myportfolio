@@ -1,6 +1,6 @@
 $fontColor: rgb(65 65 65);
 $pointColor: #FE464B;
-$fontSize: 1.2rem;
+$fontSize: 1.1rem;
 
 
 .title {
@@ -11,8 +11,9 @@ $fontSize: 1.2rem;
     justify-content: center;
 
     .project-img {
+      height: 50%;
+      max-height: 500px;
       margin-top: 5%;
-      height: 500px;
     }
 
 
