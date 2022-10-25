@@ -16,7 +16,7 @@ const projectsData = [
         detail: "A gamification chat app enable users to chat, manipulate own avatar's movements in real-time",
         content: "\"Make coders easy to connect\". My teammates and I wanted to build an app that connects developers where they can discuss and learn together. Lighthouse town is a gamification chat app that enables people to talk and move their avatars in real time. Based on Node.js and React.js, we implemented features such as login, register, chatting and moving avatars. Socket. I.O was used for real-time chatting and synchronizing all avatars' moves on the screen.",
         tech: ["Javascript", "ReactJS", "NodeJS", "Express", "Socket.I.O", "Canvas", "Sass", "PostgreSQL"],
-        live: "https://lighthouse-town.herokuapp.com/",
+        live: "https://main--lighthouse-town.netlify.app/",
         github: "https://github.com/IamHPark/lighthouse-town",
         test: "Live demo can be tested with ID: test1@test.com / PW: heesoo, ID: test@test.com / PW: moon or by registering one for yourself",
         features: [
