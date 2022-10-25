@@ -36,7 +36,7 @@ const projectsData = [
             "/img/project1/LH-3.jpg",
             "/img/project1/LH-4.jpg",
         ],
-        gif: "/img/project1/lighthouse-1.gif"
+        gif: "/img/project1/lighthousetown.gif"
     },
     {
         id: 1,

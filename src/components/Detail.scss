@@ -1,5 +1,6 @@
 $fontColor: rgb(65 65 65);
 $pointColor: #FE464B;
+$fontSize: 1.2rem;
 
 
 .title {
@@ -10,8 +11,8 @@ $pointColor: #FE464B;
     justify-content: center;
 
     .project-img {
-      margin-top: 10%;
-      width: 500px
+      margin-top: 5%;
+      height: 500px;
     }
 
 
@@ -25,7 +26,7 @@ $pointColor: #FE464B;
     h3 {
       color: rgb(65, 65, 65);
       margin: 0;
-      font-size: 1rem;
+      font-size: $fontSize;
       font-weight: 100;
       width: 60%;
       max-width: 600px;
@@ -45,7 +46,7 @@ $pointColor: #FE464B;
   }
   p {
     color: $fontColor;
-    font-size: 1.1rem;
+    font-size: $fontSize;
     line-height: 1.6;
     text-align: justify;
     font-weight: 100;
@@ -98,7 +99,7 @@ $pointColor: #FE464B;
 
   li {
     margin: 10px 0;
-    font-size: 1rem;
+    font-size: $fontSize;
     font-weight: 100;
     color: $fontColor;
   }
